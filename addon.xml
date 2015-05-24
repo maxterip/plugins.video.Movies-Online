@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Movies-Online"
+	name="Movies-Online"
+	version="1.0.8"
+	provider-name="tvalacarta">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Mi media center</summary>
+    <description lang="en">Ideas para llevar la experiencia multimedia al salón</description>
+    <summary lang="es">Mi media center</summary>
+    <description lang="es">Ideas para llevar la experiencia multimedia al salón</description>
+    <platform>all</platform>
+  </extension>
+</addon>
